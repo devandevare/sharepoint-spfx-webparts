@@ -1,0 +1,26 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.jsondemo {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(173, 206, 255);
+  .name{
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+  };
+  .marks{
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+
+  };
+  .table, th, td {
+    border: 1px solid black;
+  };
+
+  .button{
+    margin: 10px;
+  };
+  
+};

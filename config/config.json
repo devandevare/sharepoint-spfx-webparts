@@ -1,0 +1,63 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "calculator-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/calculator/CalculatorWebPart.js",
+          "manifest": "./src/webparts/calculator/CalculatorWebPart.manifest.json"
+        }
+      ]
+    },
+    "calc-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/calc2/Calc2WebPart.js",
+          "manifest": "./src/webparts/calc2/Calc2WebPart.manifest.json"
+        }
+      ]
+    },
+    "shopping-cart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/shoppingCart/ShoppingCartWebPart.js",
+          "manifest": "./src/webparts/shoppingCart/ShoppingCartWebPart.manifest.json"
+        }
+      ]
+    },
+    "jsondemo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jsondemo/JsondemoWebPart.js",
+          "manifest": "./src/webparts/jsondemo/JsondemoWebPart.manifest.json"
+        }
+      ]
+    },
+    "employeeprofile-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeprofile/EmployeeprofileWebPart.js",
+          "manifest": "./src/webparts/employeeprofile/EmployeeprofileWebPart.manifest.json"
+        }
+      ]
+    },
+    "jsondata-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jsondata/JsondataWebPart.js",
+          "manifest": "./src/webparts/jsondata/JsondataWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CalculatorWebPartStrings": "lib/webparts/calculator/loc/{locale}.js",
+    "Calc2WebPartStrings": "lib/webparts/calc2/loc/{locale}.js",
+    "ShoppingCartWebPartStrings": "lib/webparts/shoppingCart/loc/{locale}.js",
+    "JsondemoWebPartStrings": "lib/webparts/jsondemo/loc/{locale}.js",
+    "EmployeeprofileWebPartStrings": "lib/webparts/employeeprofile/loc/{locale}.js",
+    "JsondataWebPartStrings": "lib/webparts/jsondata/loc/{locale}.js"
+  }
+}
