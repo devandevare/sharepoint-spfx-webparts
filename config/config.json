@@ -49,6 +49,46 @@
           "manifest": "./src/webparts/jsondata/JsondataWebPart.manifest.json"
         }
       ]
+    },
+    "sp-api-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spApi/SpApiWebPart.js",
+          "manifest": "./src/webparts/spApi/SpApiWebPart.manifest.json"
+        }
+      ]
+    },
+    "fileuploader-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fileuploader/FileuploaderWebPart.js",
+          "manifest": "./src/webparts/fileuploader/FileuploaderWebPart.manifest.json"
+        }
+      ]
+    },
+    "empdetailsfluentui-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/empdetailsfluentui/EmpdetailsfluentuiWebPart.js",
+          "manifest": "./src/webparts/empdetailsfluentui/EmpdetailsfluentuiWebPart.manifest.json"
+        }
+      ]
+    },
+    "employee-fluent-ui-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeFluentUi/EmployeeFluentUiWebPart.js",
+          "manifest": "./src/webparts/employeeFluentUi/EmployeeFluentUiWebPart.manifest.json"
+        }
+      ]
+    },
+    "context-menu-fluent-ui-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/contextMenuFluentUi/ContextMenuFluentUiWebPart.js",
+          "manifest": "./src/webparts/contextMenuFluentUi/ContextMenuFluentUiWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -58,6 +98,12 @@
     "ShoppingCartWebPartStrings": "lib/webparts/shoppingCart/loc/{locale}.js",
     "JsondemoWebPartStrings": "lib/webparts/jsondemo/loc/{locale}.js",
     "EmployeeprofileWebPartStrings": "lib/webparts/employeeprofile/loc/{locale}.js",
-    "JsondataWebPartStrings": "lib/webparts/jsondata/loc/{locale}.js"
+    "JsondataWebPartStrings": "lib/webparts/jsondata/loc/{locale}.js",
+    "SpApiWebPartStrings": "lib/webparts/spApi/loc/{locale}.js",
+    "FileuploaderWebPartStrings": "lib/webparts/fileuploader/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "EmpdetailsfluentuiWebPartStrings": "lib/webparts/empdetailsfluentui/loc/{locale}.js",
+    "EmployeeFluentUiWebPartStrings": "lib/webparts/employeeFluentUi/loc/{locale}.js",
+    "ContextMenuFluentUiWebPartStrings": "lib/webparts/contextMenuFluentUi/loc/{locale}.js"
   }
 }
